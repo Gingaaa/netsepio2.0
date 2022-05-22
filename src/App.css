@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Signika+Negative:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR CLASSES  */
+
+
+.text {
+  /* border: 2px solid black; */
+  color: white;
+  text-decoration: none;
+  margin: 4px;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.text:hover {
+  color: rgb(92, 218, 218);
+}
+.text:active {
+  color: rgb(221, 89, 13);
+}
+
+.ho {
+  margin-left: 28vw;
+  font-weight: bold;
+}
+.img {
+  height: 64px;
+  width: 64px;
+}
+.dnw a {
+  text-decoration: none;
+}
+.dn {
+  border: 2px solid rgb(51, 176, 248);
+  height: 36px;
+  width: 190px;
+  border-radius: 23px;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  margin-top: 12px;
+  margin-right: 17px;
+  background-color: rgb(47, 200, 247);
+}
+
+@media only screen and (max-width: 988px) {
+  .dn {
+    margin-top: 100px;
+    margin-left: -600px;
+    position: absolute;
+  }
+
+}
+@media only screen and (min-width: 1640px) {
+  .dn {
+    width: 248px;
+    height: 49px;
+  }
+}
+@media only screen and (min-width: 1968px) {
+  .dn {
+    width: 277px;
+    height: 55px;
+  }
+}
+@media only screen and (min-width: 2356px) {
+  .dn {
+    width: 299px;
+    height: 58px;
+  }
+}
+@media only screen and (min-width: 2564px) {
+  .dn {
+    width: 309px;
+    height: 63px;
+  }
+}
+
+
+
+/* HOME CLASSES  */
+
+
+.home {
+  margin-top: 23px;
+}
+@media only screen and (max-width: 2248px) {
+  .hv {
+    background-size: 100% 100%;
+    height: 400vh;
+  }
+}
+.hd {
+  margin-top: 165px;
+  color: white;
+  font-weight: bolder;
+  font-size: 3.7vw;
+}
+.hp {
+  color: white;
+  font-size: 1.3vw;
+  margin-top: 53px;
+}
+.cyb {
+  margin-top: 193px;
+  color: black;
+}
+.cimg {
+  height: 350px;
+  width: 400px;
+  margin-left: 780px;
+  margin-top: -323px;
+  border-radius: 23px;
+  box-shadow: 5px 5px 8px 4px rgb(59, 3, 3);
+}
+.arch {
+  margin-top: 53px;
+  height: 500px;
+  width: 1000px;
+  margin-left: 170px;
+  image-rendering: auto;
+}
+.impact {
+  margin-top: 45px;
+}
+.imp {
+  color: black;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+/* ABOUT CLASSES  */
+
+.ah {
+  margin-top: 79px;
+  color: white;
+  font-weight: bolder;
+  font-size: 3.7vw;
+  text-align: center;
+}
+.ah4 {
+  margin-top: 190px;
+  color: black;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 333px;
+}
+.ap {
+  margin-top: 80px;
+  text-align: center;
+  /* border: 2px solid black; */
+  width: 580px;
+  margin-left: 30px;
+  font-size: 1.3vw;
+}
+.ap1 {
+  /* border: 2px solid black; */
+  margin-top: 40px;
+  text-align: center;
+  width: 580px;
+  margin-left: 30px;
+  font-size: 1.3vw;
+}
+.map {
+  height: 330px;
+  width: 680px;
+  margin-left: 650px;
+  margin-top: -285px;
+}
+.vi {
+  margin-top: 70px;
+  text-align: center;
+  color: black;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.vp {
+  margin-top: 80px;
+  text-align: center;
+  width: 500px;
+  margin-left: 326px;
+  font-size: 1.3vw;
+}
+.mp {
+  width: 400px;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 80px;
+  font-size: 1.3vw;
+}
+.vis {
+  margin-left: 173px;
+  margin-top: -233px;
+  border-radius: 20px;
+  /* height: 500px; */
+  /* width: 500px; */
+}
+.wal {
+  margin-left: 630px;
+  margin-top: -230px;
+  border-radius: 20px;
+}
+.vid {
+  margin-left: 533px;
+  margin-top: -300px;
+  image-rendering: optimizeQuality;
+  border-radius: 20px;
+}
+.py {
+  margin-top: -450px;
+  margin-left: 900px;
+  /* border: 2px solid rgb(0, 204, 255); */
+  border-radius: 20px;
+  background-color: rgb(0, 204, 255);
+}
+.py:hover {
+  background-color: rgb(94, 216, 247);
+  cursor: pointer;
+}
+
+/* FEATURES CLASSES  */
+
+.fh {
+  color: white;
+  text-align: center;
+  margin-top: 89px;
+  font-weight: bolder;
+  font-size: 3.7vw;
+}
+.fp {
+  margin-top: 198px;
+  text-align: center;
+  width: 300px;
+  margin-left: 530px;
+}
+.rev {
+  margin-top: -350px;
+  margin-left: 200px;
+}
+.net {
+  margin-top: -400px;
+  margin-left: 900px;
+}
+.ff {
+  text-align: center;
+  margin-top: 54px;
+  color: black;
+}
+.ffp {
+  text-align: center;
+  margin-top: 33px;
+}
+.ovf {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+.ovs {
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+/* FOOTER CLASSES  */
+
+.fo {
+  margin-top: 57px;
+  background: linear-gradient(to right, #3c1dec, #2ef8cc);
+  color: white;
+  /* margin-bottom: -20px; */
+  height: 370px;
+}
+.fimg {
+  height: 68px;
+  width: 68px;
+}
+.ftext {
+  color: white;
+  text-decoration: none;
+  margin: 4px;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.get {
+  margin-top: -310px;
+  color: white;
+  margin-left: 525px;
+}
+.con {
+  color: white;
+  margin-top: -233px;
+  margin-right: 142px;
+}
+.icon1 {
+  height: 33px;
+  width: 33px;
+  border-radius: 113px;
+  margin-right: 20px;
+}
