@@ -8,7 +8,6 @@
 
 /* NAVBAR CLASSES  */
 
-
 .text {
   /* border: 2px solid black; */
   color: white;
@@ -56,12 +55,19 @@
     margin-left: -600px;
     position: absolute;
   }
-
+  .img {
+    height: 77px;
+    width: 77px;
+  }
 }
 @media only screen and (min-width: 1640px) {
   .dn {
     width: 248px;
     height: 49px;
+  }
+  .img {
+    height: 87px;
+    width: 87px;
   }
 }
 @media only screen and (min-width: 1968px) {
@@ -69,11 +75,19 @@
     width: 277px;
     height: 55px;
   }
+  .img {
+    height: 97px;
+    width: 97px;
+  }
 }
 @media only screen and (min-width: 2356px) {
   .dn {
     width: 299px;
     height: 58px;
+  }
+  .img {
+    height: 114px;
+    width: 114px;
   }
 }
 @media only screen and (min-width: 2564px) {
@@ -81,20 +95,45 @@
     width: 309px;
     height: 63px;
   }
+  .img {
+    height: 124px;
+    width: 124px;
+  }
 }
 
-
-
 /* HOME CLASSES  */
-
 
 .home {
   margin-top: 23px;
 }
-@media only screen and (max-width: 2248px) {
+@media only screen and (max-width: 1104px) {
   .hv {
-    background-size: 100% 100%;
-    height: 400vh;
+    height: "100px",
+  }
+}
+@media only screen and (min-width: 1404px) {
+  .hv {
+    height: "250px",
+  }
+}
+@media only screen and (min-width: 1636px) {
+  .hv {
+    height: "400px",
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .hv {
+    height: "500px",
+  }
+}
+@media only screen and (min-width: 2132px) {
+  .hv {
+    height: "600px",
+  }
+}
+@media only screen and (min-width: 2248px) {
+  .hv {
+    height: "700px",
   }
 }
 .hd {

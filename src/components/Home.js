@@ -12,7 +12,7 @@ export default function Home() {
             style={{
               position: "absolute",
               width: "100%",
-              height: "130vh",
+              height: "890px",
               left: "50%",
               objectFit: "cover",
               transform: "translate(-50%, -50%)",
