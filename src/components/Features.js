@@ -20,11 +20,11 @@ export default function Features() {
             zIndex: "-1",
           }}
         >
-          <source src="video4.mp4" type="video/mp4" />
+          <source src="video2.mp4" type="video/mp4" />
         </video>
       </div>
       <h2 className="fh">FEATURES</h2>
-      <div className="">
+      <div>
         <p className="fp">
           Create a browser extension allowing users to vote for a domain
           categorizing it into various categories and get rewards. This enables

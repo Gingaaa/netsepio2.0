@@ -36,9 +36,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container cyb">
-        <h2 style={{ fontWeight: "bold", fontSize: "3.6vw" }}>Cyber Attacks</h2>
-        <p style={{ marginTop: "43px", fontSize: "1.2vw" }}>
+      <div className="cyb">
+        <h2 style={{ fontWeight: "bold", fontSize: "3.6vw", textAlign:"center" }}>Cyber Attacks</h2>
+        <p style={{ marginTop: "43px", fontSize: "1.2vw", textAlign:"center" }}>
           * Adware accounts for 72% of mobile malware: Report - gadgetsnow.com{" "}
           <br />
           * Thousands of COVID-19 scam and malware sites are being created on a
@@ -53,8 +53,8 @@ export default function Home() {
           * On The Frontline: The Rise Of Hate Speech And Racism On Social Media
           - discoversociety.org <br />
         </p>
-        <img src="cyber.jpg" className="cimg" alt="" />
       </div>
+        <img src="cyber.jpg" className="cimg" alt="" />
       
       
     </>

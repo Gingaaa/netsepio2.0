@@ -24,23 +24,22 @@
 }
 
 .ho {
-  margin-left: 28vw;
+  margin-left: 26.4vw;
   font-weight: bold;
 }
 .img {
-  height: 64px;
-  width: 64px;
+  height: 58px;
+  width: 58px;
 }
 .dnw a {
   text-decoration: none;
 }
 .dn {
-  border: 2px solid rgb(51, 176, 248);
-  height: 36px;
-  width: 190px;
+  height: 30px;
+  width: 180px;
   border-radius: 23px;
   color: white;
-  padding: 2px;
+  /* padding: 2px; */
   text-align: center;
   justify-content: center;
   font-size: 1.5vw;
@@ -133,7 +132,7 @@
 }
 @media only screen and (min-width: 2248px) {
   .hv {
-    height: "700px",
+    height: "900px",
   }
 }
 .hd {
@@ -154,18 +153,12 @@
 .cimg {
   height: 350px;
   width: 400px;
-  margin-left: 780px;
-  margin-top: -323px;
   border-radius: 23px;
-  box-shadow: 5px 5px 8px 4px rgb(59, 3, 3);
+  margin-left: 500px;
+  margin-top: 32px;
+  /* box-shadow: 5px 5px 8px 4px rgb(59, 3, 3); */
 }
-.arch {
-  margin-top: 53px;
-  height: 500px;
-  width: 1000px;
-  margin-left: 170px;
-  image-rendering: auto;
-}
+
 .impact {
   margin-top: 45px;
 }
@@ -195,23 +188,26 @@
   margin-top: 80px;
   text-align: center;
   /* border: 2px solid black; */
-  width: 580px;
-  margin-left: 30px;
+  width: 780px;
+  margin-left: 320px;
   font-size: 1.3vw;
 }
 .ap1 {
   /* border: 2px solid black; */
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
-  width: 580px;
-  margin-left: 30px;
+  width: 780px;
+  margin-left: 320px;
   font-size: 1.3vw;
 }
 .map {
-  height: 330px;
-  width: 680px;
-  margin-left: 650px;
-  margin-top: -285px;
+  /* height: 330px; */
+  /* width: 680px; */
+  margin-left: 300px;
+  margin-top: 30px;
+  /* border: 2px solid rgb(250, 94, 94); */
+  border-radius: 23px;
+  box-shadow: 4px 4px 4px greenyellow;
 }
 .vi {
   margin-top: 70px;
@@ -223,15 +219,25 @@
 .vp {
   margin-top: 80px;
   text-align: center;
-  width: 500px;
-  margin-left: 326px;
+  width: 700px;
+  margin-left: 226px;
   font-size: 1.3vw;
 }
+.arch {
+  margin-top: 53px;
+  height: 400px;
+  width: 800px;
+  margin-left: 280px;
+  image-rendering: auto;
+  /* border: 2px solid black; */
+  border-radius: 23px;
+  box-shadow: 4px 4px 4px blueviolet;
+}
 .mp {
-  width: 400px;
+  width: 800px;
   text-align: center;
-  margin-top: 90px;
-  margin-left: 80px;
+  margin-top: 60px;
+  margin-left: 300px;
   font-size: 1.3vw;
 }
 .vis {
@@ -247,14 +253,15 @@
   border-radius: 20px;
 }
 .vid {
-  margin-left: 533px;
-  margin-top: -300px;
+  margin-left: 303px;
+  margin-top: 30px;
   image-rendering: optimizeQuality;
   border-radius: 20px;
+  box-shadow: 7px 7px 7px rgb(0, 204, 255);
 }
 .py {
   margin-top: -450px;
-  margin-left: 900px;
+  margin-left: 675px;
   /* border: 2px solid rgb(0, 204, 255); */
   border-radius: 20px;
   background-color: rgb(0, 204, 255);
@@ -274,18 +281,22 @@
   font-size: 3.7vw;
 }
 .fp {
-  margin-top: 198px;
+  margin-top: 168px;
   text-align: center;
-  width: 300px;
-  margin-left: 530px;
+  width: 700px;
+  margin-left: 330px;
 }
 .rev {
-  margin-top: -350px;
-  margin-left: 200px;
+  margin-top: 40px;
+  margin-left: 325px;
+  width: 200px;
+  height: 300px;
 }
 .net {
-  margin-top: -400px;
-  margin-left: 900px;
+  margin-top: -330px;
+  margin-left: 560px;
+  width: 480px;
+  height: 300px;
 }
 .ff {
   text-align: center;
