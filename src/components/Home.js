@@ -9,6 +9,7 @@ export default function Home() {
             autoPlay
             loop
             muted
+            className="hvv"
             style={{
               position: "absolute",
               width: "100%",

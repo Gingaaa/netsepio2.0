@@ -9,10 +9,11 @@ export default function About() {
             autoPlay
             loop
             muted
+            className="avv"
             style={{
               position: "absolute",
               width: "100%",
-              height: "357px",
+              height: "377px",
               left: "50%",
               objectFit: "cover",
               transform: "translate(-50%, -50%)",
